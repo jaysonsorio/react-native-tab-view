@@ -530,7 +530,6 @@ const styles = StyleSheet.create({
   },
   tabBar: {
     backgroundColor: '#2196f3',
-    elevation: 4,
     shadowColor: 'black',
     shadowOpacity: 0.1,
     shadowRadius: StyleSheet.hairlineWidth,
@@ -571,7 +570,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffeb3b',
     position: 'absolute',
     left: 0,
-    bottom: 0,
+    bottom: -1,
     right: 0,
     height: 2,
   },
